@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(149, 255, 255);
+    text-align: center;
+    justify-self: center;
+}
+.toll a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.toll a:hover{
+    color: red;
+}
+.toll a:active{
+    color: red;
+}
+h2{
+    color: rgb(249, 84, 255);
+    font-size: 2rem;
+}
+
+.ten{
+    margin: 12px;
+    height: 30px;
+    width: 80%;
+    border-color: aqua;
+    color: darkgreen;
+}
+.ma{
+    margin: 12px;
+    height: 30px;
+    width: 80%;
+    border-color: aqua;
+    color: darkgreen;
+}
+.submit{
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+.submit:hover{
+    background-color: aqua;
+}
+.submit:active{
+    background-color: aqua;
+    box-shadow: 0 5px black;
+    transform: translateY(5px);
+}
