@@ -11,20 +11,43 @@
     <title>CÁC BÀI VIẾT - Cydra InfSkl</title>
 </head>
 <body>
-    <div class="Navar">
+   <div class="Navar">
         <div class="topnav" id="myTopnav">
          
             <a href="https://cydra-infskl.io.vn" class="active">Trang Chủ</a>
             <a href="./dangbai">Đăng Bài</a>
             <a href="https://www.facebook.com/HoaiAnShungChing">Liên Hệ</a>
-             <a href="./search/">Tìm Kiếm</a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Thông báo</a>
+                    <a href="#">Góc chia sẽ</a>
+                    <a href="#">Thảo Luận</a>
+                  </div>
+                </div>
+                   
+            <a href="./search/">Tìm Kiếm</a>
             <div class="topnav-right">
               <a href="https://cydra-infskl.io.vn/en/blog/posts">English</a>
             
-              
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
             </div>
         </div>
 
+<script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 
 
@@ -87,33 +110,7 @@
                             </div>
                        </div>
                     <!-- For Trending Now  -->
- <div class="scrollmenu">
-    <a href="">Thông báo</a>
-    <a href="">Thảo Luận</a>
-    <a href="">Góc Chia Sẻ</a>
-    <a href="#about">An Toàn Thông Tin Mạng(THCS)</a>
-  </div>
-
-    <style>
-    div.scrollmenu {
- background-color: aquamarine;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-div.scrollmenu a {
-  display: inline-block;
-  color: rgb(255, 0, 200);
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-  background-color: #777;
-}
-</style>
-                    <!-- Popular Shows  -->
+         <!-- Popular Shows  -->
                   
  
  
