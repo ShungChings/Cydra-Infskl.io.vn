@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://cydra-infskl.io.vn/sitemap.xml
